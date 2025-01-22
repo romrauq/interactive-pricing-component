@@ -54,6 +54,7 @@ body {
 .main-container {
 	margin: auto 0 auto 0;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
 	z-index: 10;
 }
 .upper-row {
