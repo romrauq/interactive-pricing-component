@@ -130,6 +130,7 @@ body {
 	gap: 10px;
 }
 .toggle-text {
+	font-size: 12px;
 }
 .toggle-button {
 	display: flex;
@@ -150,10 +151,11 @@ body {
 }
 .discount-text {
 	font-size: 8px;
+	font-weight: bold;
 	align-self: center;
 	position: absolute;
 	padding: 2px 5px;
-	margin: 0 0 0 250px;
+	margin: 0 0 0 210px;
 	color: var(--Light-Red);
 	background-color: var(--Light-Grayish-Red);
 	border-radius: 20px;
