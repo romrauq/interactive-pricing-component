@@ -34,7 +34,7 @@ body {
 }
 .background-top {
 	position: absolute;
-	height: 45%;
+	height: 50%;
 	width: 100%;
 	z-index: 5;
 }
