@@ -116,6 +116,7 @@ body {
 	background-image: url("../images/icon-slider.svg");
 	background-position: center;
 	background-repeat: no-repeat;
+	box-shadow: 0 0 15px hsl(174, 86%, 45%);
 }
 .slider::-webkit-slider-thumb:active {
 	cursor: grab;
