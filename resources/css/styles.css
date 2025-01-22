@@ -180,8 +180,6 @@ body {
 	flex-direction: column;
 	gap: 10px;
 }
-.perk-text {
-}
 .start-button {
 	color: white;
 	height: fit-content;
