@@ -101,6 +101,9 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.slider::-webkit-slider-thumb:active {
+	cursor: grab;
+}
 /* .slider::-moz-range-thumb {
 	width: 25px;
 	height: 25px;
