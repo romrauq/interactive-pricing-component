@@ -120,7 +120,7 @@ body {
 .slider::-webkit-slider-thumb:active {
 	cursor: grab;
 }
-.mobile-price {
+.mobile-price-row {
 	display: none;
 }
 .toggle-row {
