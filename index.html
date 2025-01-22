@@ -16,33 +16,35 @@
 		</div>
 
 		<div class="main-container">
-			<div class="stats-row">
-				<p><span id="pageviews-output"></span> Pageviews</p>
-				<p>$<span id="price-per-period"></span>/ <span id="period">monthly</span></p>
-			</div>
-
-			<div class="slider">
-				<input
-					type="range"
-					min="1"
-					max="100"
-					value="50"
-					class="slider"
-					id="myRange"
-					itemid="slider-input"
-				/>
-			</div>
-
-			<div class="toggle-row">
-				<div class="toggle-container">
-					<p class="toggle-text">Monthly Billing</p>
-					<button class="toggle-button"></button>
-					<p class="toggle-text">Yearly Billing</p>
+			<div class="upper-row">
+				<div class="stats-row">
+					<p><span id="pageviews-output"></span> Pageviews</p>
+					<p>$<span id="price-per-period"></span>/ <span id="period">monthly</span></p>
 				</div>
-				<p class="discount-text">25% discount</p>
+
+				<div class="slider-container">
+					<input
+						type="range"
+						min="1"
+						max="100"
+						value="50"
+						class="slider"
+						id="myRange"
+						itemid="slider-input"
+					/>
+				</div>
+
+				<div class="toggle-row">
+					<div class="toggle-container">
+						<p class="toggle-text">Monthly Billing</p>
+						<button class="toggle-button"><div class="toggle-inner"></div></button>
+						<p class="toggle-text">Yearly Billing</p>
+					</div>
+					<p class="discount-text">25% discount</p>
+				</div>
 			</div>
 
-			<div class="slider-footer">
+			<div class="footer-row">
 				<div class="perks-container-column">
 					<p class="perk-text">Unlimited websites</p>
 					<p class="perk-text">100% data ownership</p>
